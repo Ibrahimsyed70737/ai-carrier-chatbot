@@ -145,29 +145,31 @@ Open your first terminal, navigate to the `server/` directory, and run:
 ```bash
 cd server
 node server.js
+```
 You should see messages indicating the server is running (e.g., "Server running on port 5000" and "MongoDB Connected").
 
 2. Start the Frontend (Development Server):
 Open your second terminal, navigate to the client/ directory, and run:
 
-Bash
+```bash
 
 cd client
 npm start
+```
 This will open the application in your default web browser (usually at http://localhost:3000, which will then proxy API requests to http://localhost:5000). If it doesn't open automatically, navigate to http://localhost:3000 in your browser.
 
-🧪 API Routes Overview
+### 🧪 API Routes Overview
 The backend exposes the following API endpoints:
 
 POST /api/auth/register – User registration (create a new account)
 POST /api/auth/login – User login (authenticate and receive a JWT)
 GET /api/chat/history – Get the current user's previous chat history
 POST /api/chat – Send a user message to the chatbot and receive an AI-generated response
-📷 UI Preview
+###📷 UI Preview
 (Add screenshots or a link to a live demo of your application here if available)
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! Feel free to fork the repository, open issues for bugs or feature requests, or submit pull requests.
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License.
