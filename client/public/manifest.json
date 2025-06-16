@@ -1,0 +1,8 @@
+{
+  "short_name": "CareerPath AI",
+  "name": "CareerPath AI - Your Future Navigator",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
