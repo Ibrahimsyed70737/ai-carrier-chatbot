@@ -112,6 +112,7 @@ Before you begin, ensure you have the following installed on your system:
         Add the following content:
 
         ```env
+        REACT_APP_GEMINI_API_KEY="YOUR API KEY"
         REACT_APP_API_URL=http://localhost:5000
         ```
 
